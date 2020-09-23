@@ -15,5 +15,6 @@ class greater {
         } else {
             System.out.println(m + " and " + n + " are equal.");
         }
+        sc.close();
     }
 }
