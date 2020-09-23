@@ -7,12 +7,12 @@ class vowel {
 
         if (Character.isLetter(ch)) {
             if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-                System.out.println("The Letter is a Vowel.");
+                System.out.println(ch + "is a Vowel.");
             } else {
-                System.out.println("Tehe Letter is a Consonant.");
+                System.out.println(ch + "is a Consonant.");
             }
         } else {
-            System.out.println("Character not a Letter.");
+            System.out.println(ch + "not a Letter.");
         }
     }
 }
