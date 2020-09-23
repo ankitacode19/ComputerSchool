@@ -15,5 +15,6 @@ class vowel {
         } else {
             System.out.println(ch + " not a Letter.");
         }
+        sc.close();
     }
 }
