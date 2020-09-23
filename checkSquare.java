@@ -6,7 +6,7 @@ class Solution {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Length:");
         int length = sc.nextInt();
-        System.out.println("Enter Breadth:")
+        System.out.println("Enter Breadth:");
         int breadth = sc.nextInt();
 
         if (length == breadth) {
