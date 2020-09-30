@@ -10,7 +10,7 @@ class CheckPalindrome {
 
         while (n > 0) {
             c = n % 10;
-            d = (c * 100) + d;
+            d = (d * 10) + c;
             n = n / 10;
         }
 
