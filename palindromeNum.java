@@ -15,9 +15,9 @@ class CheckPalindrome {
         }
 
         if (d == temp) {
-            System.out.println(temp + " is a palindrome number.");
+            System.out.println(temp + " is a palindrome number. ");
         } else {
-            System.out.println(temp + " is not a palindrome number.");
+            System.out.println(temp + " is not a palindrome number. ");
         }
         sc.close();
     }
